@@ -1,0 +1,250 @@
+*{
+ margin: 0;   
+ padding:0;
+ box-sizing: border-box;
+ font-family:"Poppins",sans-serif;
+}body{
+    overflow-x: hidden;
+
+}
+header{
+z-index: 999;
+position: absolute;
+top:0;
+left: 0;
+width:100%;
+display: flex;
+justify-content: space-between;
+padding: 15px 200px ;
+transition: 0.5s ease;
+}
+header .brand{
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+text-decoration: none;
+}
+header.navigation{
+    position: relative;
+}
+header .navigation .navigation-items a{
+position: relative;
+color: #fff;
+font-size: 500;
+text-decoration: none;
+margin-left: 30px;
+transition: 0.3s ease;
+}
+header .navigation .navigation-items a:before{
+  content:''; 
+  position: absolute; 
+  background: #fff;
+  width: o;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+}
+header .navigation .navigation-items a:hover:before{
+    width: 100%;
+}
+section{
+    padding: 100px 200px;
+}
+.home{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #2696E9;
+}
+.home .content{
+    z-index: 888;
+    color: #fff;
+    width: 70%;
+    margin-top: 50px;
+}
+.home .content h1{
+    font-size: 4em;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -3px;
+    line-height: 70px;
+    margin-bottom: 40px;
+}
+.home .content h1 span{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.home .content p{
+  margin-bottom: 65px ;  
+}
+.home .content a{
+    background: #fff ;
+    padding: 15px 35px;
+    color: #1680AC;
+    font-size: 1.1em;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 2px;
+}
+.home video{
+    z-index: 000;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    height: 100%;
+    object-fit: cover;
+}
+.container{
+    background-color:#fff;
+    max-width:1100px ;
+}
+#apropos-nous{
+    height: 95vh;
+    display: flex;
+justify-content: center;
+align-items: center;
+background: #fff;
+}
+#apropos-nous .title {
+    text-align: center;
+    margin-bottom: 4em;
+    margin-right:18rem;
+}
+#apropos-nous h2 {
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 20px;
+
+}
+#apropos-nous .title p {
+    font-size: 14px;
+    color:#fff;
+    font-weight: 600;
+}
+#apropos-nous .apropos-nos-content {
+    display: flex;
+    justify-content: space-between;
+}
+#apropos-nous .apropos-nos-content img {
+    width: 400px;
+    height: 250px;
+}
+#apropos-nous .apropos-nos-content p {
+    color: #fff;
+    margin-right: 10rem;
+    font-weight: 500 ;
+    line-height: 1.2;
+}
+.btn-warning {
+    margin-top: 2rem;
+}
+.container1 {
+    background-color:#ebe2e2;
+    max-width:1100px ;
+    }
+    #notre_Services{
+        height: 95vh;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    #notre_Services .title {
+        text-align: center;
+        margin-bottom: 1em;
+        margin-right:18rem;
+    }
+    #notre_Services h5 {
+        font-size: 40px;
+        color: #080808;
+        margin-bottom: 20px;
+    
+    }
+    #notre_Services .bomba {
+        font-size: 18px;
+        color:#0b0b0b;
+        margin-right: 0rem;
+        font-weight: 0 ;
+        line-height: 1;
+    }
+    .card1-bady {
+        width: 290px;
+        height: 375px;
+        margin-left: 40px;
+        border-radius: 2ch;
+        border: #fff solid;
+    }
+    .card2-bady {
+        width: 250px;
+        height: 358px;
+        margin-left: 110px;
+        border-radius: 2ch;
+        border: #fff solid;
+    }
+    #btn1 {
+        height: 12;
+        margin-block: 39px;
+
+    }
+    #bns{
+        margin-block-start: 7px;
+    }
+    .card1-title {
+        font-size: 2rem;
+    }
+    .card2-title {
+        font-size: 2rem;
+    }
+    .cards-title{
+        font-size: 30px;
+    color: #050505;
+    margin-bottom: 8px;
+    }
+    #bibi{
+        margin-top: -118px;
+    margin-left: 500px;
+}
+#kho{
+    margin-left: 280px;
+    margin-top: 20px;
+}
+
+
+
+@media (min-width: 1200px) {
+  header {
+    padding: 15px 200px;
+  }
+  section {
+    padding: 100px 200px;
+  }
+}
+@media (max-width: 992px) {
+  header {
+    padding: 15px 50px;
+  }
+  section {
+    padding: 50px 20px;
+  }
+  .home .content {
+    width: 90%;
+  }
+  .home .content h1 {
+    font-size: 3em;
+    line-height: 1.2;
+  }
+  .card1-bady,
+  .card2-bady {
+    margin: 20px auto;
+  }
+}
+
+
+    
+    
+   
+
